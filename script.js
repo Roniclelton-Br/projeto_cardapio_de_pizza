@@ -143,7 +143,7 @@ function updateCart() {
 
             cartItem.querySelector('.cart--item-qtmenos').addEventListener('click', ()=>{
 
-                if(cart[1].qt > 1) {
+                if(cart[i].qt > 1) {
                     cart[i].qt--;
                 } else {
                     cart.splice(i, 1);
